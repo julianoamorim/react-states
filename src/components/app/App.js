@@ -1,12 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import Counter from '../counter/Counter'
-
+import IfoodCounter from '../ifoodCounter/ifoodCounter';
 function App() {
   return (
     <div>
-      <h1>Hello World!</h1>
-      <Counter/>
+      <h1>Ifood</h1>
+      <IfoodCounter/>
     </div>
   );
 }
